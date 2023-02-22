@@ -5,7 +5,7 @@
       <div class="flex m-2 justify-evenly">
         <article
           class="cursor-pointer"
-          v-for="(item, index) in toTal"`
+          v-for="(item, index) in toTal"
           :key="index"
         >
           <NuxtLink :to="item.path">
